@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700,700i,900|Rubik:400,700&amp;subset=latin-ext" rel="stylesheet">
+  <title>DiaVita</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/flipclock.css" rel="stylesheet">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/flipclock.min.js"></script>
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <div class="body-wrapper">
+    <section class="header">
+      <div class="wrapper">
+        <h4>Похудей с DiaVita!</h4>
+        <div class="prize">
+            <b>Призовой фонд</b>
+            <span>3000€!</span>
+        </div>
+        <div class="contest">
+          внимание! конкурс!
+        </div>
+        <p>Хотите быстро похудеть, стать здоровыми,
+            богатыми и успешными?</p>
+        <div class="help">Мы поможем вам!</div>
+        <div class="timer">
+          <p>До начала конкурса осталось:</p>
+          <div class="counter-clock"></div>
+        </div>
+        <button class="toform">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+      </div>
+    </section>
+    <section class="about">
+      <div class="wrapper">
+        <h5>Измени свою жизнь за 8 недель с DiaVita</h5>
+        <div class="about-block">
+          <div class="elements">
+            <div class="element1"></div>
+            <div class="element2"></div>
+            <img src="img/triangle1.jpg" alt="" class="element3">
+            <img src="img/triangle2.jpg" alt="" class="element4">
+          </div>
+          <p>Генеральный спонсор конкурса - компания <b>FL&nbsp;International</b>, официальный партнер фирмы
+              <b>DiaVita</b>, производителя “умных” товаров для красоты и здоровья. Самый известный
+              продукт от <b>DiaVita - КОКТЕЙЛЬ ДЛЯ ПОХУДЕНИЯ VITA&nbsp;ENERGY</b>. Безглютеновый коктейль
+              <b>VITA&nbsp;ENERGY</b> ускоряет сжигание жира, улучшает обмен веществ, подавляет аппетит и
+              способствует быстрому похудению. Хотите быстро похудеть без вреда для здоровья?
+              Выбирайте <b>VITA&nbsp;ENERGY</b> и участвуйте в конкурсе!
+          </p>
+          <ul class="pluses">
+            <li>
+              <p>Шанс привести себя в форму</p>
+            </li>
+            <li>
+                <p>Возможность хорошо заработать</p>
+            </li>
+            <li>
+                <p>Прославиться в соцсетях</p>
+            </li>
+            <li>
+                <p>Гарантия улучшить свое здоровье</p>
+            </li>
+          </ul>
+          <h6>Условия конкурса</h6>
+          <p>Все, что вам нужно - это сбросить как можно больше лишних килограммов с помощью
+              коктейля для похудения <b>VITA&nbsp;ENERGY</b>. Тот, кто за 56 дней (8 недель) сбросит максимальное
+              количество килограммов, получит главный приз - 1000 евро. Остальной призовой фонд в
+              3000 евро будет распределен между самыми яркими и целеустремленными участниками
+              по мнению жюри. Участие в конкурсе БЕСПЛАТНОЕ. Вместе с приемом коктейля
+              <b>VITA&nbsp;ENERGY</b> допускаются занятия спортом, правильное питание и активный образ жизни.
+          </p>
+          <h6>Информация для участников</h6>
+          <p>Вы решили похудеть? Хотите, чтобы о вашей истории успеха узнал весь мир?
+              Отправьте нам следующие данные: <b>e-mail, возраст, рост, вес, пол, ссылки на профили в
+              социальных сетях</b> (Instagram, Facebook и т.д.). После этого мы свяжемся с вами по e-mail
+              и дадим вам дальнейшие инструкции. Первые 10 человек получат от нас коктейли
+              <b>VITA&nbsp;ENERGY</b> бесплатно. Торопитесь! Компания <b>DiaVita</b> вместе с <b>FL International</b>
+              дарят вам удивительную возможность поправить свое здоровье, стать подтянутыми,
+              стройными и при этом заработать!
+              </p>
+        </div>
+      </div>
+    </section>
+    <section class="respond">
+      <div class="wrapper">
+        <div class="respond-block">
+          <h6>Заполните форму для участия в конкурсе</h6>
+          <form class="form">
+            <div class="form-row">
+              <label for="name">Имя:</label>
+              <input type="text" name="name" id="name" placeholder="Матвей">
+            </div>
+            <div class="form-row">
+                <label for="email">Ваш e-mail:</label>
+                <input type="text" name="email" id="email" placeholder="testmail@landing.com">
+            </div>
+            <div class="form-row">
+                <label for="age">Возраст:</label>
+                <div class="select-container">
+                    <select name="age" id="sex">
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                      <option value="32">32</option>
+                      <option value="33">33</option>
+                      <option value="34">34</option>
+                      <option value="35">35</option>
+                      <option value="36">36</option>
+                      <option value="37">37</option>
+                      <option value="38">38</option>
+                      <option value="39">39</option>
+                      <option value="40">40</option>
+                      <option value="41">41</option>
+                      <option value="42">42</option>
+                      <option value="43">43</option>
+                      <option value="44">44</option>
+                      <option value="45">45</option>
+                      <option value="46">46</option>
+                      <option value="47">47</option>
+                      <option value="48">48</option>
+                      <option value="49">49</option>
+                      <option value="50">50</option>
+                      <option value="51">51</option>
+                      <option value="52">52</option>
+                      <option value="53">53</option>
+                      <option value="54">54</option>
+                      <option value="55">55</option>
+                      <option value="56">56</option>
+                      <option value="57">57</option>
+                      <option value="58">58</option>
+                      <option value="59">59</option>
+                      <option value="60">60</option>
+                      <option value="61">61</option>
+                      <option value="62">62</option>
+                      <option value="63">63</option>
+											<option value="64">64</option>
+											<option value="65">65</option>
+											<option value="66">66</option>
+											<option value="67">67</option>
+											<option value="68">68</option>
+											<option value="69">69</option>
+											<option value="70">70</option>
+											<option value="71">71</option>
+											<option value="72">72</option>
+											<option value="73">73</option>
+											<option value="74">74</option>
+											<option value="75">75</option>
+											<option value="76">76</option>
+											<option value="77">77</option>
+											<option value="78">78</option>
+											<option value="79">79</option>
+											<option value="80">80</option>
+											<option value="81">81</option>
+											<option value="82">82</option>
+											<option value="83">83</option>
+											<option value="84">84</option>
+											<option value="85">85</option>
+											<option value="86">86</option>
+											<option value="87">87</option>
+											<option value="88">88</option>
+											<option value="89">89</option>
+											<option value="90">90</option>
+											<option value="91">91</option>
+											<option value="92">92</option>
+											<option value="93">93</option>
+											<option value="94">94</option>
+											<option value="95">95</option>
+											<option value="96">96</option>
+											<option value="97">97</option>
+											<option value="98">98</option>
+											<option value="99">99</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="height">Рост:</label>
+                <input type="text" name="height" id="height" placeholder="165 см">
+            </div>
+            <div class="form-row">
+                <label for="weight">Вес:</label>
+                <input type="text" name="weight" id="weight" placeholder="85 кг">
+            </div>
+            <div class="form-row">
+                <label for="sex">Пол:</label>
+                <div class="select-container">
+                  <select name="sex" id="sex">
+                    <option value="female">Женский</option>
+                    <option value="male">Мужской</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="social">Соцсети:</label>
+                <input type="text" name="social" id="social" placeholder="vk.com/test, instagram/test">
+            </div>
+            <button class="js_submit">отправить</button>
+          </form>
+          <p>Чем быстрее вы отправите заявку, тем больше у вас шансов получить
+              <b>бесплатный</b> набор коктейлей для похудения <b>VITA&nbsp;ENERGY</b>
+          </p>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+              <img src="img/DiaVita.png" alt="">
+            </div>
+            <div class="footer-center">
+              Худейте с продукцией DiaVita
+                  и получайте призы!
+            </div>
+            <div class="footer-right">
+              <img src="img/logo_FL_int..png" alt="">
+            </div>
+          </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
